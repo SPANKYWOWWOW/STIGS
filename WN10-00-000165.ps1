@@ -11,7 +11,7 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN10-AU-000165
+    STIG-ID         : WN10-00-000165
 
 .TESTED ON
     Date(s) Tested  : 
@@ -22,7 +22,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000165).ps1 
+    PS C:\> .\__remediation_template(STIG-ID-WN10-00-000165).ps1 
 #>
 $RegPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows NT\Rpc"
 $RegName = "RestrictRemoteClients"
